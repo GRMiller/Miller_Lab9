@@ -95,7 +95,7 @@ a {
 
 
 	/*Index Page*/
-html.index_page {
+.index_page {
 	background:url(../images/capitol_reef_hero_bw.jpg) no-repeat center center fixed;
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
@@ -105,15 +105,17 @@ html.index_page {
 
 section.index_title {
 	text-align:left;
-	padding: 325px 15px 20px 25px;
+	/*padding: 325px 15px 20px 25px;*/
 	position:relative;
+	display:inline-block;
+	padding-left:25px;
 }
 
 .index_title h1{
 	font-size:4.5em;
 	color: rgba(200,88,138,.8);
 	position:relative;
-	top:-310px;
+	top:0px;
 	text-shadow: 0px 0px 15px rgba(40,40,40,.8);
 	
 	
@@ -122,7 +124,7 @@ section.index_title {
 .index_title h2{
 	font-size:1.7em;
 	color: rgba(200,88,138,.8);
-	margin-top:20px;
+	margin-top:350px;
 	text-shadow: 0px 0px 15px rgba(40,40,40,.8);
 }
 
