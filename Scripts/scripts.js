@@ -2,7 +2,12 @@ $(document).ready(function() {
  console.log('hello');
 
 	$('.toggle_btn').click(function() {
-		$('.index_page').css({background:'url(images/capitol_reef_hero_color.jpg) no-repeat center center fixed'}, 1000);
+		$('.index_page').css('background-image','url(images/capitol_reef_hero_color.jpg)');
+		$('.toggle_btn').text('Revert to GrayScale').addClass('toggle_bw');
+	});
+
+	$('.toggle_bw').click(function(){
+		$('.index_page').css('background-image','url(images/capitol_reef_hero_bw.jpg');
 	});
 
 console.log('.index_page')

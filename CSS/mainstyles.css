@@ -96,11 +96,12 @@ a {
 
 	/*Index Page*/
 .index_page {
-	background:url(../images/capitol_reef_hero_bw.jpg) no-repeat center center fixed;
+	background-image:url(../images/capitol_reef_hero_bw.jpg);
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
 	-o-background-size:cover;
 	background-size:cover;
+	transition:1s;
 }
 
 section.index_title {
